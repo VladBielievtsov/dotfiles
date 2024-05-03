@@ -1,0 +1,24 @@
+import = [
+  "~/.config/alacritty/catppuccin-mocha.toml"
+]
+
+[shell]
+program = "/usr/bin/fish"
+
+[env]
+TERM = "xterm-256color"
+
+[window]
+opacity = 0.9
+padding = { x = 10, y = 10 }
+
+[scrolling]
+history = 100
+
+[font]
+bold = { family = "JetBrainsMono", style = "Bold" }
+normal = { family = "JetBrainsMono", style = "Regular" }
+italic = { family = "JetBrainsMono", style = "Italic" }
+bold_italic = { family = "JetBrainsMono", style = "Bold Italic" }
+size = 11
+

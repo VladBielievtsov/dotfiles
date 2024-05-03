@@ -1,0 +1,81 @@
+{
+    // Theme
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Catppuccin Mocha",
+
+    // Change font
+    "editor.fontFamily": "JetBrains Mono", // Fira Code, Geist Mono
+    "scm.inputFontFamily": "Geist Mono",
+    "terminal.integrated.fontFamily": "Geist Mono",
+    "chat.editor.fontFamily": "Geist Mono",
+    "debug.console.fontFamily": "Geist Mono",
+    "editor.codeLensFontFamily": "Geist Mono",
+    "notebook.output.fontFamily": "Geist Mono",
+    "markdown.preview.fontFamily": "Geist Mono",
+    "editor.inlayHints.fontFamily": "Geist Mono",
+
+    // Font size
+    "editor.fontSize": 18,
+    "terminal.integrated.fontSize": 18,
+
+    // UI
+    "editor.minimap.enabled": false,
+    "window.commandCenter": false,
+    "editor.scrollbar.vertical": "auto",
+    "editor.scrollbar.horizontal": "auto",
+    "window.titleBarStyle": "custom",
+
+    // Misc
+    "workbench.startupEditor": "none",
+    "workbench.tree.enableStickyScroll": false,
+    "editor.stickyScroll.enabled": false,
+    "explorer.compactFolders": false,
+    "editor.tabSize": 2,
+    "breadcrumbs.filePath": "last",
+    "editor.lineHeight": 26,
+    "editor.smoothScrolling": true,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "explorer.confirmDelete": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[prisma]": {
+        "editor.defaultFormatter": "Prisma.prisma",
+        "editor.formatOnSave": true
+    },
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "[javascript]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[html]": {
+        "editor.formatOnSave": true
+    },
+    "[css]": {
+        "editor.formatOnSave": true
+    },
+    "[php]": {
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
+        "editor.formatOnSave": true
+    },
+    "[sass]": {
+        "editor.formatOnSave": true
+    },
+    "workbench.editorAssociations": {
+        "*.sav": "default"
+    },
+    "go.toolsManagement.autoUpdate": true,
+    "git.openRepositoryInParentFolders": "never",
+}
