@@ -10,7 +10,7 @@ super + b
 
 #===== OPEN NEMO =====
 super + e
-	thunar
+	nemo
 
 #===== OPEN ROFI =====
 super + d
