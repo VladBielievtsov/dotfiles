@@ -22,7 +22,7 @@ configuration {
 window {
 	width: 100px;
 	height: 244px;
-	border-radius: 8px;
+	border-radius: 14px;
 	border: 2;
 	border-color: @fg;
 	padding: 10;
