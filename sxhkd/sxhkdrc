@@ -4,13 +4,13 @@
 super + Return
 	alacritty
 
-#===== OPEN BRAVE =====
+#===== OPEN FIREFOX =====
 super + b
-	brave &
+	firefox &
 
 #===== OPEN NEMO =====
 super + e
-	nemo &
+	thunar
 
 #===== OPEN ROFI =====
 super + d
