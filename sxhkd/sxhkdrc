@@ -4,9 +4,9 @@
 super + Return
 	alacritty
 
-#===== OPEN FIREFOX =====
+#===== OPEN BRAVE =====
 super + b
-	firefox &
+	brave &
 
 #===== OPEN NEMO =====
 super + e
