@@ -15,11 +15,11 @@ bspc config borderless_monocle   true
 bspc config gapless_monocle      true
 
 sxhkd &
+feh --bg-scale $HOME/.config/wallpapers/1319293.jpeg &
 dunst &
-feh --bg-scale $HOME/.config/wallpapers/1322318.jpeg &
 polybar &
-picom &
+picom --config $HOME/.config/picom/picom.conf &
 
 xset m 1 1
 
-exec nemo --no-default-window
+setxkbmap -layout us,ua -option grp:alt_shift_toggle
