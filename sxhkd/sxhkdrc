@@ -2,9 +2,9 @@
 
 #===== OPEN TERMINAL =====
 super + Return
-	alacritty
+	kitty &  #alacritty
 
-#===== OPEN BRAVE =====
+#===== OPEN BROWSER =====
 super + b
 	brave &
 
@@ -42,7 +42,7 @@ super + Escape
 
 # quit/restart bspwm
 super + alt + {q,r}
-	bspc {quit,wm -r}
+
 
 # close and kill
 super + {_,shift + }w
