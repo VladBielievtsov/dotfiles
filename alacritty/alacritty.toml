@@ -13,7 +13,7 @@ opacity = 0.9
 padding = { x = 10, y = 10 }
 
 [scrolling]
-history = 100
+history = 200
 
 [font]
 bold = { family = "JetBrainsMono", style = "Bold" }
