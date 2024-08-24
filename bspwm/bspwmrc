@@ -17,7 +17,7 @@ bspc config gapless_monocle      true
 sxhkd &
 feh --bg-scale $HOME/.config/wallpapers/1319293.jpeg &
 dunst &
-polybar &
+polybar mybar &
 picom --config $HOME/.config/picom/picom.conf &
 
 xset m 1 1
