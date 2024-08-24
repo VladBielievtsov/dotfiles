@@ -22,4 +22,6 @@ picom --config $HOME/.config/picom/picom.conf &
 
 xset m 1 1
 
+xsetroot -cursor_name left_ptr
+
 setxkbmap -layout us,ua -option grp:alt_shift_toggle
