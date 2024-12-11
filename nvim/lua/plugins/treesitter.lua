@@ -1,12 +1,26 @@
 return {
-  "nvim-treesitter/nvim-treesitter", 
-  build = ":TSUpdate",
-  config = function()
-    local config = require("nvim-treesitter.configs")
-    config.setup({
-      auto_install = true, 
-      highlight = {enable = true},
-      indent = {enable = true},
-    })
-  end
+  {
+    "nvim-treesitter/nvim-treesitter",
+    opts = {
+      ensure_installed = {
+        "css",
+        "scss",
+        "gitignore",
+        "go",
+        "http"
+      },
+    },
+    config = function(_, opts)
+      require("nvim-treesitter.configs").setup(opts)
+
+      -- MDX
+      vim.filetype.add({
+        extension = {
+          mdx = "mdx"
+        }
+      })
+
+      vim.treesitter.language.register("markdown", "mdx")
+    end,
+  },
 }
