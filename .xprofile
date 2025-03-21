@@ -1,6 +1,0 @@
-#!/bin/sh
-[ -z "$XDG_CONFIG_HOME" ] && XDG_CONFIG_HOME="$HOME/.config"
-XCURSOR_PATH="$XDG_CONFIG_HOME/icons:$HOME/.icons:/usr/share/icons:/usr/share/pixmaps"
-XCURSOR_THEME=catppuccin-mocha-dark-cursors
-export XCURSOR_PATH XCURSOR_THEME
-
