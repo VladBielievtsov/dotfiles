@@ -1,0 +1,65 @@
+{
+  "margin": "0 0 0 0",
+  "spacing": 5,
+  "modules-left": ["hyprland/workspaces", "hyprland/submap"],
+  "modules-center": ["mpris"],
+  "modules-right": ["pulseaudio", "network", "clock", "clock#simpleclock"],
+  "tray": {
+    "icon-size": 18,
+    "spacing": 0
+  },
+  "clock#simpleclock": {
+    "tooltip": false,
+    "format": " {:%H:%M}"
+  },
+  "clock": {
+    "format": " {:L%a %d %b}",
+    "tooltip": false
+  },
+  "network": {
+    "format": "󰣺 Wired",
+    "format-disconnected": "󰣼 OFFLINE",
+    "interval": 2
+  },
+  "pulseaudio": {
+    "format": "{icon} {volume}%",
+    "format-muted": "🔇",
+    "format-icons": {
+      "headphone": "🎧",
+      "hands-free": "🎧",
+      "headset": "🎧",
+      "phone": "📱",
+      "portable": "📱",
+      "car": "🚗",
+      "default": ["", "", ""]
+    },
+    "on-click": "pavucontrol",
+    "tooltip": true,
+    "tooltip-format": "{volume}%",
+    "scroll-step": 5.0,
+    "max-volume": 100,
+    "smooth-scrolling-threshold": 1.0
+  },
+  "hyprland/window": {
+    "separate-outputs": true
+  },
+  "mpris": {
+    "format": "{player_icon} {dynamic}",
+    "dynamic-order": ["title", "artist", "album"],
+    "dynamic-len": 50,
+    "player-icons": {
+      "default": "",
+      "firefox": "󰈹",
+      "vlc": "󰕼"
+    },
+  },
+  "hyprland/workspaces": {
+    "persistent-workspaces": {
+      "1": [],
+      "2": [],
+      "3": [],
+      "4": [],
+      "5": []
+    }
+  }
+}

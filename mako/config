@@ -1,0 +1,25 @@
+# GLOBAL
+max-history=100
+sort=-time
+
+# BINDING OPTIONS
+on-button-left=dismiss
+on-button-middle=none
+on-button-right=dismiss-all
+on-touch=dismiss
+
+#on-notify=exec mpv /usr/share/sounds/freedesktop/stereo/message.oga
+
+# STYLE OPTIONS
+font=Fantasque MapleMono 10
+
+background-color=#1e1e2e
+text-color=#cdd6f4
+border-color=#cba6f7
+progress-color=over #313244
+border-radius=6
+default-timeout=5000
+ignore-timeout=0
+
+[urgency=high]
+border-color=#fab387
