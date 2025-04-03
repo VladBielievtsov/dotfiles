@@ -1,9 +1,19 @@
 {
   "margin": "0 0 0 0",
   "spacing": 5,
-  "modules-left": ["hyprland/workspaces", "hyprland/submap"],
-  "modules-center": ["mpris"],
-  "modules-right": ["pulseaudio", "network", "clock", "clock#simpleclock"],
+  "modules-left": [
+    "hyprland/workspaces"
+  ],
+  "modules-center": [
+    "mpris"
+  ],
+  "modules-right": [
+    "pulseaudio",
+    "network",
+    "clock",
+    "clock#simpleclock",
+    "custom/powermenu"
+  ],
   "tray": {
     "icon-size": 18,
     "spacing": 0
@@ -31,7 +41,11 @@
       "phone": "📱",
       "portable": "📱",
       "car": "🚗",
-      "default": ["", "", ""]
+      "default": [
+        "",
+        "",
+        ""
+      ]
     },
     "on-click": "pavucontrol",
     "tooltip": true,
@@ -45,13 +59,18 @@
   },
   "mpris": {
     "format": "{player_icon} {dynamic}",
-    "dynamic-order": ["title", "artist", "album"],
+    "dynamic-order": [
+      "title",
+      "artist",
+      "album"
+    ],
     "dynamic-len": 50,
     "player-icons": {
       "default": "",
       "firefox": "󰈹",
-      "vlc": "󰕼"
-    },
+      "vlc": "󰕼",
+      "spotify": ""
+    }
   },
   "hyprland/workspaces": {
     "persistent-workspaces": {
@@ -61,5 +80,11 @@
       "4": [],
       "5": []
     }
+  },
+  "custom/powermenu": {
+    "format": "",
+    "on-click": "bash ~/.config/waybar/scripts/power_menu.sh",
+    "tooltip": false,
+    "class": "powermenu"
   }
 }
