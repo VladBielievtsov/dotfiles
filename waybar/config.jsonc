@@ -86,5 +86,10 @@
     "on-click": "bash ~/.config/waybar/scripts/power_menu.sh",
     "tooltip": false,
     "class": "powermenu"
+  },
+  "custom/startmenu": {
+    "format": "󰣇",
+    "tooltip": false,
+    "class": "startmenu"
   }
 }

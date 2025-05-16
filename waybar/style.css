@@ -81,6 +81,7 @@ window#waybar {
 #mpris,
 #tray,
 #custom-powermenu,
+#custom-startmenu,
 #network {
   padding: 0px 8px;
   margin: 6px 0px;
@@ -99,6 +100,11 @@ window#waybar {
 #custom-powermenu {
   margin-right: 0.8rem;
   color: @maroon;
+}
+
+#custom-startmenu {
+  margin-left: 0.8rem;
+  color: @blue;
 }
 
 #pulseaudio {
